@@ -1,0 +1,475 @@
+@import './variables';
+/* ======================= MEDIA =======================  */
+
+
+/* --------------- For Tiny Screens --------------- */
+@media (max-width: 310px){
+	*{
+		overflow-x: hidden;
+	}
+}
+
+
+/* --------------- Mobile View --------------- */
+@media (max-width: 699px){
+    .top{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            h1{
+                text-align: center;
+            }
+        }
+        .right{
+            width: 100%;
+            .top{
+                flex-direction: column;
+
+                input{
+                    margin: 10px 0;
+                    width: 90%;
+                }
+                h4{
+                    margin: 10px 0;
+                    text-align: center;
+                    width: 100%;
+                }
+                span{
+                    margin: 10px 0;
+                    width: 100%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        ul{
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
+        li{
+            margin: 10px 0;
+        }
+    }
+
+
+
+    /* --- NUMBER 1 --- */
+    .number-1{
+        width: 100%;
+        a{
+            margin: 20px auto;
+            width: 80%;
+        }
+
+    }
+
+    /* --- NUMBER 2 --- */
+    .number-2{
+        flex-direction: column;
+        .box{
+            border: 1px solid $border_color;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .box__img{
+            width: 50%;
+        }
+        .box__text{
+            width: 100%;
+            h3{
+                text-align: center;
+            }
+            h5{
+                text-align: center;
+                width: 100%;
+                padding: 0 !important;
+            }
+        }
+    }
+
+
+    /* --- NUMBER 3 --- */
+    .number-3{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+            h5{
+                text-align: justify;
+            }
+        }
+        .right{
+            width: 100%;
+        }
+    }
+
+
+    /* --- NUMBER 4 --- */
+    .number-4{
+        .numbers{
+            width: 100%;
+        }
+    }
+
+
+    /* --- NUMBER 5 --- */
+    .number-5-bg{
+        display: none;
+    }
+    .number-5{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            h3, p{
+                text-align: center;
+            }
+        }
+        .right{
+            width: 100%;
+
+            a{
+                width: 70%;
+                margin: 15px auto;
+            }
+        }
+    }
+
+
+    /* --- NUMBER 6 --- */
+    .number-6{
+        flex-direction: column;
+        align-items: center;
+        .news{
+            border: 1px solid $border_color;
+            width: 90%;
+        }
+        .news:last-child{
+            border-right: 1px solid $border_color !important;
+        }
+    }
+
+
+    /* --- NUMBER 7 --- */
+    .number-7{
+        flex-direction: column;
+
+        img{
+            display: none;
+        }
+
+        .left{
+            width: 100%;
+            h1{
+                font-size: 24px;
+            }
+            a{
+                margin: 10px 0;
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+        .right{
+            border: none;
+            width: 100%;
+            align-items: center;
+            padding: 0;
+        }
+
+    }
+
+    /* --- NUMBER 8 --- */
+    .number-8{
+        flex-direction: column;
+
+        .left{
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+            a{
+                width: 80%;
+                margin: 15px auto;
+            }
+        }
+        .right{
+            border: none;
+            width: 100%;
+            align-items: center;
+            padding: 0;
+
+            img{
+                display: none;
+            }
+
+        }
+    }
+
+    /* --- NUMBER 9 --- */
+    .number-9{
+        flex-direction: column;
+        .left{
+            border: none;
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+        }
+        .right{
+            border: none;
+            width: 100%;
+            align-items: center;
+            padding: 0;
+            
+            input, a{
+                width: 80%;
+                margin: 10px auto;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/* --------------- Tablet View --------------- */
+@media (min-width: 700px) and (max-width: 1024px) {
+    .top{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            h1{
+                text-align: center;
+            }
+        }
+        .right{
+            width: 100%;
+            .top{
+                flex-direction: column;
+
+                input{
+                    margin: 10px 0;
+                    width: 90%;
+                }
+                h4{
+                    margin: 10px 0;
+                    text-align: center;
+                    width: 100%;
+                }
+                span{
+                    margin: 10px 0;
+                    width: 100%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        ul{
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
+        li{
+            margin: 10px 0;
+        }
+    }
+
+
+
+    /* --- NUMBER 1 --- */
+    .number-1{
+        width: 100%;
+        a{
+            margin: 20px auto;
+            width: 80%;
+        }
+
+    }
+
+    /* --- NUMBER 2 --- */
+    .number-2{
+        flex-direction: column;
+        .box{
+            border: 1px solid $border_color;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .box__img{
+            width: 50%;
+        }
+        .box__text{
+            width: 100%;
+            h3{
+                text-align: center;
+            }
+            h5{
+                text-align: center;
+                width: 100%;
+                padding: 0 !important;
+            }
+        }
+    }
+
+
+    /* --- NUMBER 3 --- */
+    .number-3{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+            h5{
+                text-align: justify;
+            }
+        }
+        .right{
+            width: 100%;
+        }
+    }
+
+
+    /* --- NUMBER 4 --- */
+    .number-4{
+        .numbers{
+            width: 100%;
+        }
+    }
+
+
+    /* --- NUMBER 5 --- */
+    .number-5-bg{
+        display: none;
+    }
+    .number-5{
+        flex-direction: column;
+        .left{
+            width: 100%;
+            h3, p{
+                text-align: center;
+            }
+        }
+        .right{
+            width: 100%;
+
+            a{
+                width: 70%;
+                margin: 15px auto;
+            }
+        }
+    }
+
+
+    /* --- NUMBER 6 --- */
+    .number-6{
+        flex-direction: column;
+        align-items: center;
+        .news{
+            border: 1px solid $border_color !important;
+            width: 90%;
+        }
+        .news:last-child{
+            border-right: 1px solid $border_color !important;
+        }
+    }
+
+
+    /* --- NUMBER 7 --- */
+    .number-7{
+        flex-direction: column;
+
+        img{
+            display: none;
+        }
+
+        .left{
+            width: 100%;
+            h1{
+                font-size: 24px;
+            }
+            a{
+                margin: 10px 0;
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+        .right{
+            border: none;
+            width: 100%;
+            align-items: center;
+            padding: 0;
+        }
+
+    }
+
+    /* --- NUMBER 8 --- */
+    .number-8{
+        flex-direction: column;
+
+        .left{
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+            a{
+                width: 80%;
+                margin: 15px auto;
+            }
+        }
+        .right{
+            border: none;
+            width: 100%;
+            align-items: center;
+            padding: 0;
+
+            img{
+                display: none;
+            }
+
+        }
+    }
+
+    /* --- NUMBER 9 --- */
+    .number-9{
+        flex-direction: column;
+        .left{
+            border: none;
+            width: 100%;
+            p{
+                text-align: justify;
+            }
+        }
+        .right{
+            border: none;
+            width: 100%;
+            align-items: center;
+            padding: 0;
+            
+            input, a{
+                width: 80%;
+                margin: 10px auto;
+            }
+        }
+    }
+}
